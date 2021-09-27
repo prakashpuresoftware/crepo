@@ -1,5 +1,5 @@
 language: c
 compiler: gcc
-script:
-  - gcc -o sample.c sample
+script: |
+  - gcc -0 sample.c sample
   - ./sample
